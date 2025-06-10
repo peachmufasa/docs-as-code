@@ -4,7 +4,47 @@
 
 <instance-profile id="hi"
                  name="Documentation-as-code"
-                 start-page="Main.md">
+                 start-page="Git.md">
 
-    <toc-element topic="Main.md"/>
+
+    <toc-element topic="Git.md">
+        <toc-element topic="why_we_need_cvs.md"/>
+        <toc-element topic="vcs_history.md"/>
+        <toc-element topic="basic_terms.md"/>
+        <toc-element topic="how_git_works.md"/>
+        <toc-element topic="CLI_vs_GUI.md"/>
+        <toc-element topic="useful_links.md"/>
+    </toc-element>
+    <toc-element topic="docs-as-code.md">
+        <toc-element topic="documentation_management_approaches.md"/>
+        <toc-element topic="main_concept.md"/>
+        <toc-element topic="docs-as-code_history.md"/>
+        <toc-element topic="markup_languages.md"/>
+        <toc-element topic="utilities.md"/>
+        <toc-element topic="visual_content.md"/>
+        <toc-element topic="basic_workflow.md"/>
+        <toc-element topic="basic_principles.md"/>
+        <toc-element topic="useful_materials.md"/>
+        <toc-element topic="API_Reference.md">
+            <toc-element topic="Delete_user_resource_.md"/>
+            <toc-element topic="Update_user_resource_.md"/>
+            <toc-element topic="Get_user_by_user_name_.md"/>
+            <toc-element topic="Logs_out_current_logged_in_user_session_.md"/>
+            <toc-element topic="Logs_user_into_the_system_.md"/>
+            <toc-element topic="Creates_list_of_users_with_given_input_array_.md"/>
+            <toc-element topic="Create_user_.md"/>
+            <toc-element topic="Delete_purchase_order_by_identifier_.md"/>
+            <toc-element topic="Find_purchase_order_by_ID_.md"/>
+            <toc-element topic="Place_an_order_for_a_pet_.md"/>
+            <toc-element topic="Returns_pet_inventories_by_status_.md"/>
+            <toc-element topic="Uploads_an_image_.md"/>
+            <toc-element topic="Deletes_a_pet_.md"/>
+            <toc-element topic="Updates_a_pet_in_the_store_with_form_data_.md"/>
+            <toc-element topic="Find_pet_by_ID_.md"/>
+            <toc-element topic="Finds_Pets_by_tags_.md"/>
+            <toc-element topic="Finds_Pets_by_status_.md"/>
+            <toc-element topic="Add_a_new_pet_to_the_store_.md"/>
+            <toc-element topic="Update_an_existing_pet_.md"/>
+        </toc-element>
+    </toc-element>
 </instance-profile>
